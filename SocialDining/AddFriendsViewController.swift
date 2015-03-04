@@ -16,8 +16,7 @@ class AddFriendsViewController: UIViewController, UICollectionViewDataSource, UI
         println("friend selected")
     }
     
-    var facebookFriends = [FacebookFriend]() // String array for now, will populate with friend objects in the future
-    // photo url for a userID: "http://graph.facebook.com/\(userID)/picture?type=large"
+    var facebookFriends = [FacebookFriend]()
     
     @IBAction func dismiss(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
