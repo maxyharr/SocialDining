@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>87AC7C53-E684-44B4-B6EF-87A62B6CF645</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SocialDining</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>785AE7A10556C552E7E1BD44DC22B35B7D190067</key>
+		<string>https://github.com/mharris7190/SocialDining.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SocialDining.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>785AE7A10556C552E7E1BD44DC22B35B7D190067</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/mharris7190/SocialDining.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>785AE7A10556C552E7E1BD44DC22B35B7D190067</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>785AE7A10556C552E7E1BD44DC22B35B7D190067</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SocialDining</string>
+		</dict>
+	</array>
+</dict>
+</plist>
