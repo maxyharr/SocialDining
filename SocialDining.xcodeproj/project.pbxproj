@@ -22,6 +22,9 @@
 		50DCE1191AA57BA40079C3D7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DCE1181AA57BA40079C3D7 /* MapKit.framework */; };
 		50DCE2FA1AA60C8B0079C3D7 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50DCE2F91AA60C8B0079C3D7 /* FacebookSDK.framework */; };
 		50DCE2FE1AA610FF0079C3D7 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DCE2FD1AA610FF0079C3D7 /* LoginViewController.swift */; };
+		50DCE3051AA65F720079C3D7 /* AddFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DCE3041AA65F720079C3D7 /* AddFriendsViewController.swift */; };
+		50DCE3071AA672600079C3D7 /* FacebookFriendCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DCE3061AA672600079C3D7 /* FacebookFriendCollectionCell.swift */; };
+		50DCE3091AA677190079C3D7 /* FacebookFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50DCE3081AA677190079C3D7 /* FacebookFriend.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +58,9 @@
 		50DCE2F91AA60C8B0079C3D7 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
 		50DCE2FD1AA610FF0079C3D7 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		50DCE3011AA614DD0079C3D7 /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
+		50DCE3041AA65F720079C3D7 /* AddFriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFriendsViewController.swift; sourceTree = "<group>"; };
+		50DCE3061AA672600079C3D7 /* FacebookFriendCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookFriendCollectionCell.swift; sourceTree = "<group>"; };
+		50DCE3081AA677190079C3D7 /* FacebookFriend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FacebookFriend.swift; path = ../FacebookFriend.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 				507A45721AA375E6008E74F0 /* InvitationsViewController.swift */,
 				507A45741AA375E6008E74F0 /* CreateInvitationViewController.swift */,
 				501600B71AA3DEF2006BEEE4 /* AddTimesViewController.swift */,
+				50DCE3041AA65F720079C3D7 /* AddFriendsViewController.swift */,
 				50DCE1141AA569070079C3D7 /* InvitationDetailsViewController.swift */,
 				50DCE1161AA579310079C3D7 /* InvitationMapViewController.swift */,
 				507A45761AA375E6008E74F0 /* Main.storyboard */,
@@ -112,7 +119,9 @@
 				507A457B1AA375E6008E74F0 /* LaunchScreen.xib */,
 				507A456E1AA375E6008E74F0 /* Supporting Files */,
 				506AC7281AA42E9B00F202A5 /* Invitation.swift */,
+				50DCE3081AA677190079C3D7 /* FacebookFriend.swift */,
 				5077DCF91AA438CD00768C4A /* InvitationCell.swift */,
+				50DCE3061AA672600079C3D7 /* FacebookFriendCollectionCell.swift */,
 			);
 			path = SocialDining;
 			sourceTree = "<group>";
@@ -264,9 +273,12 @@
 				50DCE1171AA579310079C3D7 /* InvitationMapViewController.swift in Sources */,
 				506AC7291AA42E9B00F202A5 /* Invitation.swift in Sources */,
 				501600B81AA3DEF2006BEEE4 /* AddTimesViewController.swift in Sources */,
+				50DCE3051AA65F720079C3D7 /* AddFriendsViewController.swift in Sources */,
 				507A45711AA375E6008E74F0 /* AppDelegate.swift in Sources */,
 				507A45731AA375E6008E74F0 /* InvitationsViewController.swift in Sources */,
+				50DCE3091AA677190079C3D7 /* FacebookFriend.swift in Sources */,
 				50DCE1151AA569070079C3D7 /* InvitationDetailsViewController.swift in Sources */,
+				50DCE3071AA672600079C3D7 /* FacebookFriendCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

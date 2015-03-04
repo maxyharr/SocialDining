@@ -17,25 +17,6 @@ class CreateInvitationViewController: UIViewController, UITextFieldDelegate, UIT
     @IBOutlet weak var createInvitationTableView: UITableView!
     
     
-    /*  ***********************************************************************
-        The restaurant and friend properties and actions won't actually be here, this is placeholder code to test the creation of a restaurant struct and to test the communication of the createInvitationViewController with the invitationsViewController.
-    
-        These properties/methods will be removed and replaced with segues to controllers that handle adding restaurants and friends similar to addTimes current implementation.
-      ***********************************************************************  */
-
-    //@IBOutlet weak var restaurantNameField: UITextField!
-    //@IBOutlet weak var friendNameField: UITextField!
-    
-    @IBAction func addRestaurant(sender: AnyObject) {
-        restaurantsAdded.append("Restaurant \(restaurantsAdded.count)")
-        createInvitationTableView.reloadData()
-    }
-    
-    @IBAction func addFriend(sender: AnyObject) {
-        friendsAdded.append("Friend \(friendsAdded.count)")
-        createInvitationTableView.reloadData()
-    }
-    
     @IBAction func submitInvitation(sender: AnyObject) {
         // implement actual code to update invitations database
     }
